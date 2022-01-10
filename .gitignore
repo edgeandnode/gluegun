@@ -8,17 +8,19 @@ coverage
 .nyc_output
 generated
 dist/**/*
-build/**/*
+# build/**/*
 .DS_Store
 *.tgz
 
 # these are generated at build-time
-toolbox.js
-filesystem.js
-strings.js
-print.js
-system.js
-semver.js
-http.js
-patching.js
-prompt.js
+# commented because we're using Github as npm repository
+
+# toolbox.js
+# filesystem.js
+# strings.js
+# print.js
+# system.js
+# semver.js
+# http.js
+# patching.js
+# prompt.js
